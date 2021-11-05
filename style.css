@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f3fb;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.squares{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: #1a1146;
+}
+
+.fill {
+  background-image: url("https://chessarbiter.info/images/logo.png");
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.hovered {
+  border-color: #fff;
+  border-style: dashed;
+}
+
+
